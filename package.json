@@ -1,0 +1,29 @@
+{
+  "name": "nuxt-app",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare",
+    "ionic:build": "npm run build",
+    "ionic:serve": "npm run dev"
+  },
+  "devDependencies": {
+    "@nuxt/devtools": "latest",
+    "@nuxt/ui": "^2.18.4",
+    "nuxt": "^3.12.4"
+  },
+  "dependencies": {
+    "@capacitor/android": "6.1.2",
+    "@capacitor/app": "6.0.1",
+    "@capacitor/cli": "6.1.2",
+    "@capacitor/core": "6.1.2",
+    "@capacitor/haptics": "6.0.1",
+    "@capacitor/keyboard": "6.0.2",
+    "@capacitor/status-bar": "6.0.1"
+  },
+  "version": "0.0.0"
+}
